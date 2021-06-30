@@ -1,21 +1,21 @@
 package com.kodilla;
 
-class Kalkulator {
+class Calculator {
 
-    int dodawanie(int a, int b) {
+    int addition(int a, int b) {
         return (a + b);
 
     }
 
-    int odejmowanie(int a, int b) {
+    int subtraction(int a, int b) {
         return (a - b);
     }
 }
 class Aplicattion {
     public static void main(String[] args) {
-        Kalkulator kalkulator = new Kalkulator();
-        System.out.println("Wynik dodawania : " + kalkulator.dodawanie(5,7));
-        System.out.println("Wynik odejmowania : " + kalkulator.odejmowanie(10, 9));
+        Calculator calculator = new Calculator();
+        System.out.println("Wynik dodawania : " + calculator.addition(5,7));
+        System.out.println("Wynik odejmowania : " + calculator.subtraction(10, 9));
 
     }
 }
